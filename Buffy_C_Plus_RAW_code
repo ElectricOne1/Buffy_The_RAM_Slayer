@@ -1,0 +1,18 @@
+#include <iostream>
+int main() {
+    // Create array of 5 numbers just to get something going ... 
+    int myNumbers[5] = {100, 200, 300, 400, 500};
+
+    std::cout << "=== Normal Boring stuff, just ignore this ===" << std::endl;
+    for (int i = 0; i < 5; ++i) {
+        std::cout << "Index " << i << " (Safe): " << myNumbers[i] << std::endl;
+    }
+//make it yourself? New to C++ ? Install G++, then Copy this whole text as a text file, save it as buffy.c , in linux , drop it into terminal, sudo g++ buffy.c -o BuffyTheRamSlayer.c , 
+ std::cout << "\n===BUFFY the RAM SLAYER !!! This is your RAM as actual visible output! github.com/ElectricOne1 ) ===" << std::endl;
+ // We are looping index 5 to index 29.(changing the < 20 to 50 you could go farther ! Classical Piano music while you code at https://dicellopiano.com) 
+    for (int i = 5; i < 30; ++i) {
+        std::cout << "Index " << i << " (Buffy's RAM): " << myNumbers[i] << std::endl;
+    }
+
+    return 0;
+}
